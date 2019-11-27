@@ -98,15 +98,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body{
+.ThePowerOfACompliment{
   background: url('../img/the-power-of-a-compliment.jpg') no-repeat center center fixed;
   background-size: cover; 
 }
 
-h1{
+
+.ThePowerOfACompliment h1{
   font-family: sans-serif;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   font-weight: 800;
   color:white;
@@ -114,18 +115,133 @@ h1{
 }
 
 h3{
-  color:white;
+  font-size: 40px;
+  color:rgba(0,0,0,0);
+  -webkit-text-stroke-width:.5px;
+  -webkit-text-stroke-color:#F9F1E4;
+  margin-top: 80px;
+  text-transform: uppercase;
 
 
 
 }
 
 p{
-color:white;
+color:#F9F1E4;
+margin-top: 10px;
+margin-right: 2px;
+margin-left: 10px;
+
 
 
 
 }
+#box{
+	width: 300px;
+	height: 400px;
+	background: black;
+	opacity: 70%;
+	margin-left: 30px;
+
+}
+
+.home{
+	background-color: #F4F3F2;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.home p{
+	font-size: 20px;
+	text-align: center;
+	color: rgb(68,68,68);
+	display: inline-block;
+}
+
+
+.home img{
+	height: 115px;
+    margin-left: 9px;
+}
+
+.name{
+	margin-top: 220px; 
+}
+
+.nav{
+	padding: 20px;
+	margin: 20px;
+	color: #000 !important;
+}
+
+.listings a{
+	color: #000;
+}
+
+.info h4{
+	font-size: 20px;
+	color: rgb(68,68,68);
+	padding-right: 260px;
+	padding-left: 260px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+
+.info p{
+	font-size: 20px;
+	text-align: center;
+	color: rgb(68,68,68);
+	display: inline-block;
+	padding-right: 280px;
+	padding-left: 290px;
+
+}
+
+.contact h5{
+	word-spacing: 60px;
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+	display: inline-block;
+	padding-right: 250px;
+	padding-left: 260px;
+
+}
+.contact h6{
+	word-spacing: 60px;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(68,68,68);
+	display: inline-block;
+	padding-right: 250px;
+	padding-left: 260px;
+
+}
+.contact h5{
+	word-spacing: 60px;
+	font-size: 20px;
+	text-align: center;
+	color: rgb(68,68,68);
+	display: inline-block;
+	padding-right: 250px;
+	padding-left: 260px;
+
+}
+
+.contact h4{
+    font-size: 20px;
+	color: rgb(68,68,68);
+	padding-right: 260px;
+	padding-left: 260px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -137,6 +253,20 @@ color:white;
 .hidden {
   display: none !important;
 }
+
+.listings p{
+	font-size: 20px;
+	padding-right: 250px;
+	padding-left: 260px;
+	color: rgb(68,68,68);
+	display: inline-block;
+	word-spacing: 60px;
+
+}
+
+	
+
+
 
 /*
 * Hide only visually, but have it available for screen readers:
