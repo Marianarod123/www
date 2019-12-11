@@ -166,9 +166,20 @@ margin-left: 10px;
 }
 
 .name{
-	margin-top: 220px; 
+	margin-top: 140px;
+
 }
 
+.name2{
+	margin-top: 90px;
+}
+.name3{
+	margin-top: 230px;
+}
+
+.name4{
+	margin-bottom: -50px;
+}
 .nav{
 	padding: 20px;
 	margin: 20px;
@@ -261,11 +272,124 @@ margin-left: 10px;
 	color: rgb(68,68,68);
 	display: inline-block;
 	word-spacing: 60px;
-
+    margin-bottom: 200px;
 }
 
 	
+.masonry-grid{ 
+  margin-top: 60px;
+  margin-left: 300px;
+  margin-right: 100px;
+  background: url('../img/waves.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.col-md-4{
+  margin-top: 100px;
+}
+.canciones{
+  background: url('../img/waves.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding-right: 100px;
+  padding-left: 130px;
+ 
+  
+  
+}
+.container-fluid2{
+background: url('../img/waves.jpg') no-repeat center center fixed;
+  background-size: cover; 
 
+}
+
+.quote{
+ background: url('../img/waves.jpg') no-repeat center center fixed;
+  background-size: cover;
+	
+}
+
+.quote p{
+	color: white;
+	word-spacing: 2px;
+}
+.blockquote-footer{
+	color: white;
+}
+
+.ia-container {
+	width: 685px;
+	margin: 20px auto;
+	overflow: hidden;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.08);
+	border: 7px solid rgba(255,255,255,0.6);
+}
+.ia-container figure {
+    position: absolute;
+	top: 0;
+	left: 50px; /* width of visible piece */
+	width: 335px;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.6);
+    transition: all 0.3s ease-in-out;
+}
+.ia-container > figure {
+    position: relative;
+	left: 0 !important;
+}
+.ia-container img {
+	display: block;
+	width: 100%;
+}
+.ia-container input {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px; /* just cover visible part */
+	height: 100%;
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+    opacity: 0;
+	z-index: 100;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.ia-container input:checked{
+	width: 5px;
+	left: auto;
+	right: 0px;
+}
+.ia-container input:checked ~ figure {
+    left: 335px;
+    transition: all 0.7s ease-in-out;
+}
+.ia-container figcaption {
+	width: 100%;
+	height: 100%;
+	background: rgba(87, 73, 81, 0.1);
+	position: absolute;
+	top: 0px;
+    transition: all 0.2s linear;
+}
+
+.ia-container figcaption span {
+	position: absolute;
+	top: 40%;
+	margin-top: -30px;
+	right: 20px;
+	left: 20px;
+	overflow: hidden;
+	text-align: center;
+	background: rgba(87, 73, 81, 0.3);
+	line-height: 20px;
+	font-size: 18px;
+    opacity: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 700;
+	padding: 20px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+} 
 
 
 /*
